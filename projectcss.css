@@ -1,0 +1,122 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  background-image: url("background.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cssstyle{
+  width: 385px; 
+  color:white;
+  margin-top: 150px; 
+  margin-bottom: 65px;
+}
+.cssstyle h1{
+ /*  font-family: Arial;*/
+    font-size: 45px;    
+}
+
+.imgstyle{
+  height:200px;
+}
+
+.news-card {
+    max-width: 300px;
+    margin: 0 auto;}
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);   
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+.contentflex {
+  display: flex;
+}
+
+#search-icon {
+    fill:white;
+}
+
+.navbar li a{
+  color:white;
+  
+}
+
+.dropdown-menu{
+       background-color:black;
+}
+
+.navbar-brand{
+  color:white; 
+}
+
+.btn-rounded {
+  width:100px;
+   padding-top: 0.84rem;
+    padding-right: 3rem;
+    padding-bottom: 0.84rem;
+    padding-left: 3rem;
+    color: white;
+    background-color: orange;
+  border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+    display: inline-block;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.btn-secondary-color-dark :hover{
+  background-color:#aa66cc;
+  color: white;  
+}
+.btnroun{  
+    color: white;
+    background-color: orange;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.buttoninput{
+  }
+
+.divclass{
+  display:flex;
+}
+
